@@ -1,0 +1,62 @@
+.navbar-side {
+  width: 100%;
+}
+.upper-side {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  /* border: 3px solid red;    */
+}
+
+.date-area {
+  font-size: 10px;
+}
+
+.bottom-side {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  font-size: 12px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-container {
+  width: 100%;
+  max-width: 40rem;
+}
+
+.bottom-short div {
+  color: #ffd050;
+  max-width: 10rem;
+  width: 25%;
+  /* border: 1px solid red; */
+  cursor: pointer;
+  padding: 0.3rem 0;
+}
+
+.bottom-full div {
+  color: #ffd050;
+  max-width: 10rem;
+  width: 25%;
+  /* border: 1px solid red; */
+  cursor: pointer;
+  padding: 0.3rem 0;
+}
+
+.x {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.x span {
+  font-size: x-large;
+}
+
+.bottom-border {
+  border: 3px solid red;
+}
