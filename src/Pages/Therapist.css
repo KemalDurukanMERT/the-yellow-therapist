@@ -1,0 +1,25 @@
+.therapist-area{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.therapist-main{
+    max-width: 80%;
+}
+
+.show, .appointment{
+    color: #ffd050;
+    border: 1px solid black;
+}
+
+.show:hover, .appointment:hover{
+    color: white;
+    background-color: #ffd050;
+    border: #ffd050;
+}
+
+@media screen and (max-width: 800px){
+    .image-area img{
+        width: 100px;
+    }
+}

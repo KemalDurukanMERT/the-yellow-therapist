@@ -3,6 +3,48 @@
   margin-bottom: 5rem;
 }
 
+.logos{
+  padding: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+.logo{
+  padding: 1.5rem;
+}
+
+.need-button{
+  background-color: white;
+  color: #ffd050;
+  border: 3px solid #ffd050;
+}
+
+.job-button{
+  background: #ffd050;
+  color: white;
+  border: 3px solid #ffd050;
+}
+
+.need-button:hover{
+  background: #ffd050;
+  color: white;
+}
+
+.job-button:hover{
+  background-color: white;
+  color: #ffd050;
+  border: 3px solid #ffd050;
+}
+
+.about .header{
+  color: #ffd050;
+}
+.question{
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
 .discounts {
   width: 100%;
   padding: 3rem;

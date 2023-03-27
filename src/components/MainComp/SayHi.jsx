@@ -7,11 +7,11 @@ const SayHi = () => {
         What are you looking for?
       </div>
       <div className="d-flex justify-content-center align-items-center flex-column flex-md-row">
-        <div className="need-button btn px-4 rounded m-4 border border-3 py-2 border-warning text-warning fw-bolder">
+        <div className="need-button  px-4 rounded m-4  py-2  fw-bolder">
           I need a therapist
         </div>
         <div className="">Or,</div>
-        <div className="job-button btn btn-warning text-light m-4 px-4 py-2 fw-bolder">
+        <div className="job-button rounded m-4 px-4 py-2 fw-bolder">
           I am a therapist
         </div>
       </div>

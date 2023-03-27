@@ -11,6 +11,7 @@ import { FaGraduationCap } from "react-icons/fa";
 import { SiSpringsecurity } from "react-icons/si";
 import { AiOutlinePoweroff } from "react-icons/ai";
 import { IconContext } from "react-icons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,11 +27,13 @@ const Navbar = () => {
         <div className="bottom-side text-warning">
           <div className="bottom-container">
             <div className="bottom-short d-flex justify-content-center text-center">
-              <div className="x nav1">
-                <span>
-                  <BsFillPeopleFill />
-                </span>
-                Therapist
+              <div>
+                <Link as className="x nav1" to={"therapists"}>
+                  <span>
+                    <BsFillPeopleFill />
+                  </span>
+                  Therapist
+                </Link>
               </div>
               <div className="x nav2">
                 <span>
@@ -104,6 +107,20 @@ const Navbar = () => {
           </div>
         </div>
       </IconContext.Provider>
+      <div className="floater d-flex flex-column gap-3">
+        <a
+          href="https://theyellowtherapist.com/rumuna"
+          className="rumuna  rounded-pill shadow"
+        >
+          RUMUNA
+        </a>
+        <a
+          href="https://vent.theyellowtherapist.com/"
+          className="rumuna rounded-pill shadow"
+        >
+          TYT Vent
+        </a>
+      </div>
     </div>
   );
 };

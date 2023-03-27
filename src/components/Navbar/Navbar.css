@@ -23,6 +23,30 @@
   justify-content: center;
 }
 
+.x{
+  text-decoration: none;
+  color: #ffd050;
+}
+
+.floater{
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+}
+
+.rumuna{
+  padding: 1rem;
+  border: 3px solid #ffd050;
+  color: #ffd050;
+  text-decoration: none;
+  background-color: white;
+}
+
+.rumuna:hover{
+  background-color: #ffd050;
+  color: white;
+}
+
 .bottom-container {
   width: 100%;
   max-width: 40rem;
